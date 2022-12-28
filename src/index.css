@@ -1,0 +1,83 @@
+
+.card {
+  width: 20vw;
+  border: none;
+  height: 50vh;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card img {
+  width: 180px;
+}
+.card h4 {
+  text-align: center;
+}
+.App {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start
+}
+.read-the-docs {
+  color: #888;
+}
+.card {
+  width: 20vw;
+}
+.card img {
+  width: 10vw;
+}
+.home {
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+}
+.card-grid{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  width: 90vw;
+  height: auto;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+}
+.list li {
+  list-style-type: none;
+  padding: 1rem 2rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+}
+
+.navbar span {
+  color: red;
+}
+
+.login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 100vw;
+  margin: 2rem;
+}
+
+.cart {
+  text-align: center;
+  padding: 0;
+}
