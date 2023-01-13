@@ -48,7 +48,13 @@
 }
 .list li {
   list-style-type: none;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+}
+.list li button {
+  padding: .5rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  cursor: pointer;
 }
 .navbar {
   display: flex;
@@ -80,4 +86,7 @@
 .cart {
   text-align: center;
   padding: 0;
+}
+.product img {
+  width: 350px;
 }

@@ -1,9 +1,13 @@
 import React from 'react'
 import Card from '../components/Card'
+import { useContextGlobal } from '../components/utils/global.context'
 
-const Home = ({data, products, setProducts}) => {
+const Home = ({ products, setProducts}) => {
+  const {data} = useContextGlobal()
   return (
-    <div className='card-grid'>{data.map(item => <Card products={products} setProducts={setProducts} item={item} key={item.id}/>)}</div>
+    <div className='card-grid'>
+      {data?.map(item => <Card products={products} setProducts={setProducts} data={item} key={item.id}/>)}
+      </div>
   )
 }
 
