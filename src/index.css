@@ -1,12 +1,13 @@
 
 .card {
-  width: 20vw;
   border: none;
   height: 50vh;
   border: 1px solid grey;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 18rem
 }
 .card img {
   width: 180px;
@@ -75,12 +76,8 @@
   width: 100vw;
 }
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: red;
   width: 100vw;
-  margin: 2rem;
+  margin-top: 2rem;
 }
 
 .cart {
@@ -89,4 +86,15 @@
 }
 .product img {
   width: 350px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 30vh;
+  gap: 1rem;
+  
 }
