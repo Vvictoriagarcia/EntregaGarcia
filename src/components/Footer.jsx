@@ -2,7 +2,7 @@ import React from 'react'
 import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import { Link } from 'react-router-dom';
 import { ThemeConsumer } from 'react-bootstrap/esm/ThemeProvider';
-import { ContextGlobal, useContextGlobal } from './utils/global.context'
+import { ContextGlobal, useContextGlobal } from './utils/Context.context'
 
 const Footer = () => {
   const {theme} = useContextGlobal()

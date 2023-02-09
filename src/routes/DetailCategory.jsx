@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import { useContextGlobal } from '../components/utils/global.context'
 import { useParams } from 'react-router-dom'
 import axios from 'axios'
 import Card from '../components/Card'

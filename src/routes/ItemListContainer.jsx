@@ -5,7 +5,7 @@ import ItemDetailCard from './ItemDetailCard'
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { data } from 'jquery'
-import { useContextGlobal } from '../components/utils/global.context'
+import { useContextGlobal } from '../components/utils/Context.context'
 import {collection, getDocs} from 'firebase/firestore'
 import { db } from '../services/firebase'
 
@@ -23,6 +23,9 @@ const ItemListContainer = () => {
       setMessage('')
     }
   })
+  function onclick(){
+    localStorage.clear()
+  }
   return (
       <div className="card-grid">
         <div>
@@ -32,16 +35,11 @@ const ItemListContainer = () => {
         <div className='total'>
         <h5>Total: {total} USD</h5>
         <Link to='/payment'><button type="button" class="btn btn-primary">Pay</button></Link>
+        <button type="button" class="btn btn-danger" onClick={onclick}>Vaciar carrito</button>
         </div>
       </div>
   )
 }
-//Intente hacer que si el carrito estaba vacio se 
-//renderizara un mensaje que diga "Su carrito se encuentra vacio",
-//pero no pude lograrlo.
-//Cuando el carrito esta vacio, no se renderiza nada y se muestra un error en consola
-//ya que no reconoce el 'cart.map'
-//Si hay alguna manera de hacerlo y puedes mostrarme me serviria muchisimo
-//Perdon las molestias y Muchas Gracias :D
+
 
 export default ItemListContainer

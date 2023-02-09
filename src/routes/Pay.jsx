@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import { ContextGlobal, useContextGlobal } from '../components/utils/global.context'
+import { ContextGlobal, useContextGlobal } from '../components/utils/Context.context'
 
 const Pay = () => {
     const {total} = useContextGlobal()

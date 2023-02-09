@@ -1,6 +1,6 @@
 import React from 'react'
 import Card from '../components/Card'
-import { useContextGlobal } from '../components/utils/global.context'
+import { useContextGlobal } from '../components/utils/Context.context'
 import { Suspense } from 'react'
 import Loading from '../components/Loading'
 import { Spinner } from 'react-bootstrap'

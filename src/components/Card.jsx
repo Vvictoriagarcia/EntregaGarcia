@@ -1,7 +1,7 @@
 import React from 'react'
 import '../App.css'
 import { json, Link } from 'react-router-dom'
-import { ContextGlobal, useContextGlobal } from './utils/global.context'
+import { ContextGlobal, useContextGlobal } from './utils/Context.context'
 import { Spinner } from 'react-bootstrap'
 import Swal from 'sweetalert2'
 import withReactContent from 'sweetalert2-react-content'

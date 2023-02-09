@@ -5,7 +5,7 @@ import {faCartShopping} from '@fortawesome/free-solid-svg-icons'
 import {faMoon} from '@fortawesome/free-solid-svg-icons'
 import { Dropdown } from 'react-bootstrap'
 import { DropdownItem, DropdownMenu, DropdownToggle } from 'reactstrap'
-import { ContextGlobal, useContextGlobal } from './utils/global.context'
+import { ContextGlobal, useContextGlobal } from './utils/Context.context'
 
 
 
