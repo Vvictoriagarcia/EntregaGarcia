@@ -9,13 +9,6 @@ import {
 from 'mdb-react-ui-kit';
 const Login = () => {
   return (
-    // <div className='login'>
-    //   <label htmlFor="">Email</label>
-    //   <input type="email" />
-    //   <label htmlFor="">Password</label>
-    //   <input type="password" name="" id="" />
-    //   <button>Send</button>
-    // </div>
     <MDBContainer className="p-3 my-5 d-flex flex-column w-50">
 
       <MDBInput wrapperClass='mb-4' label='Email address' id='form1' type='email'/>

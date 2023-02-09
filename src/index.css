@@ -27,6 +27,9 @@
 .card {
   width: 20vw;
 }
+.card button {
+  border: 1px solid #888;
+}
 .card img {
   width: 10vw;
 }
@@ -61,11 +64,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 90vw;
+  width: 100vw;
+  padding: 1rem;
 }
 
 .navbar span {
-  color: red;
+  color: #007bff;
 }
 
 .login {
@@ -97,4 +101,98 @@
   height: 30vh;
   gap: 1rem;
   
+}
+
+.dark{
+  background-color: #12121296;
+  color: black;
+}
+
+.dark span {
+  color: white;
+}
+
+.dark button {
+  background-color: #343a40;
+}
+
+.dropdown button {
+  border: none;
+}
+.product {
+  border: none;
+  height: 60vh;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw
+}
+
+.product img {
+  width: 20vw
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin-left: 10rem;
+}
+
+.total {
+  border: none;
+  height: 60vh;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 30vw;
+}
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card h5 {
+  color: black;
+}
+
+.total {
+  width: 20vw;
+  border: 1px solid black;
+  height: 15vh;
+}
+
+.payment-form{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.payment-form button {
+  margin-bottom: 1rem;
+  background-color: #618685;
+}
+
+.message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #80ced6;
+  margin-top: 2rem;
+  width: 50vw;
+  height: 10vh;
+}
+
+.message h4 {
+   color: #618685;
 }
